@@ -1,0 +1,19 @@
+@import './components/stripe.scss';
+@import './components/Header.scss';
+// @import './components/Header.scss';
+
+
+:root{
+  --blue:#66cccc;
+  --dark-blue:#662d91;
+}
+
+.bg-darkblue{
+  background-color: var(--dark-blue) !important;
+}
+.bg-blue{
+  background-color: var(--blue) !important;
+}
+.z-index50{
+  z-index: 50;
+}

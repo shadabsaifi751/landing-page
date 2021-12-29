@@ -1,0 +1,26 @@
+.foot-logo{
+    width: 200px;
+}
+footer {
+    background-color: #eeeeee;
+    a{
+        color: #767676 !important;
+        font-weight: 500;
+        &:hover{
+            color: var(--blue) !important;
+        }
+    }
+    p{
+        color: #767676;
+        font-weight: 600;
+    }
+    h5{
+        color: #454545 !important;
+    }
+}
+.discuss{
+    background: var(--blue);
+    .sign{
+        padding: 20px;
+    }
+}
