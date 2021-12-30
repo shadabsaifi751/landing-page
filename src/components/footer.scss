@@ -22,5 +22,8 @@ footer {
     background: var(--blue);
     .sign{
         padding: 20px;
+        @media (max-width:769px){
+            padding: 12px;
+        }
     }
 }

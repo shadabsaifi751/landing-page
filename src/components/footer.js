@@ -2,9 +2,12 @@ import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import logo from "./assect/logo.png";
 import "../components/footer.scss";
+import Foot from './foot'
 
 const Footer = () => {
   return (
+    
+    <>
     <footer className="py-5">
       <Container>
         <Row>
@@ -45,6 +48,8 @@ const Footer = () => {
         </Row>
       </Container>
     </footer>
+    <Foot/>
+    </>
   );
 };
 
