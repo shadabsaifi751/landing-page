@@ -1,0 +1,35 @@
+
+.Service{
+    .text-p{
+        letter-spacing: 3px;
+          font-weight: 400;
+          font-size: 16px;
+          color: #858585;
+        }
+    
+    .service-card{
+        width: 18rem;
+        align-items: center;
+        box-shadow: 0px ​3px 8px rgba(0,0,0,0.17);
+    }
+    .top2{
+        height: 250px;
+        width: 100%;
+        margin-bottom: 15px;
+        overflow: hidden;
+        object-fit: cover;
+        
+    }
+    .title{
+        height: 50px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .body-sec{
+        border-bottom: 1px solid #d3d0d0;
+    }
+}
+
+
+
+

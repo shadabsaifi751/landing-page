@@ -1,23 +1,12 @@
-import React, { useState, useRef } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import "./product.scss";
-import product1 from "./assect/p1.jpg";
+// import product1 from "./assect/p1.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import stockData from './data'
+import stockData from './data';
 
-// import "swiper/css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-
-// import "./styles.css";
-
-// import Swiper core and required modules
-import SwiperCore, { Pagination, Navigation } from "swiper";
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
-
-// install Swiper modules
-SwiperCore.use([Pagination, Navigation]);
 
 const Product = () => {
   const [clicked, setClicked] = useState(true);
@@ -33,36 +22,34 @@ const Product = () => {
       <Container>
         <Row className="py-2">
           <Col sm={12} md={12}>
-            <p className="text-center mb-2">Lorem, ipsum dolor.</p>
-            <h2 className="text-center fw-normal">Products</h2>
+            <p className="text-center mb-2 text-p">Lorem, ipsum dolor.</p>
+            <h2 className="text-center fs-1 fw-normal">Products</h2>
           </Col>
         </Row>
-        <Row>
+        <Row className="py-4">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
-            slidesPerGroup={3}
+            slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={true}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
             className="mySwiper"
           >
             
             
-              <SwiperSlide  >
-              {stockData.map((data) => 
+              {stockData.map((eachData) => 
+              <SwiperSlide  className="my-4">
                   <Col sm={12} md={4}>
                         <div className="wrapper">
                           <div className="cont">
-                            <div className="top"></div>
-                            <div className={clicked ? "buy" : "bottom"}>
+                            <div className="top">
+                              <img src={eachData.image} className="img-fluid" alt="" />
+                            </div>
+                            <div className="bottom">
                               <div className="left">
                                 <div className="details">
-                                  <h2>{data.name}</h2>
-                                  <p>£250</p>
+                                  <h2 className="fs-5">{eachData.name}</h2>
+                                  <p className="fs-5 fw-bold text-muted">£{eachData.price}</p>
                                 </div>
                                 <div className="buy" onClick={Toggle}>
                                   <i class="bi bi-cart4"></i>
@@ -71,16 +58,6 @@ const Product = () => {
                               <div className="right">
                                 <div className="done">
                                   <i class="bi bi-check-square">done</i>
-                                </div>
-                                <div className="details">
-                                  <h2>Chair</h2>
-                                  <p>Added to your cart</p>
-                                </div>
-                                <div
-                                  className="remove"
-                                  onClick={Toggle}
-                                >
-                                  <i class="bi bi-arrow-left-circle">clear</i>
                                 </div>
                               </div>
                             </div>
@@ -98,8 +75,8 @@ const Product = () => {
                           </div>
                         </div>
                       </Col>
-                  )}
               </SwiperSlide>
+                  )}
             
           </Swiper>
          

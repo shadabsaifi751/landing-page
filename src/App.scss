@@ -14,9 +14,15 @@
 .text-darkblue{
   color: var(--dark-blue) !important;
 }
+.text-dark{
+  color: #706868 !important;
+}
 .bg-blue{
   background-color: var(--blue) !important;
 }
 .z-index50{
   z-index: 50;
+}
+body{
+  color: #646464 !important;
 }

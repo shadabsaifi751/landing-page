@@ -22,7 +22,7 @@ const Discuss = () => {
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
               />
-              <InputGroup.Text className="p-md-3 p-2 me-1 z-index50 rounded-pill px-4 bg-darkblue text-white position-absolute top-50 end-0 translate-middle-y" id="basic-addon2">Sign Up</InputGroup.Text>
+              <InputGroup.Text className="p-md-3 p-2 me-1 z-index50 rounded-pill px-md-4 bg-darkblue text-white position-absolute top-50 end-0 translate-middle-y" id="basic-addon2">Sign Up</InputGroup.Text>
             </InputGroup>
           </Col>
         </Row>
