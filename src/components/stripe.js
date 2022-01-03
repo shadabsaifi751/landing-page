@@ -1,5 +1,5 @@
 import React from "react";
-import {Container,Row,Col,List,ListInlineItem,Nav} from 'react-bootstrap'
+import {Container,Row,Col,Nav} from 'react-bootstrap'
 import "./stripe.scss";
 
 const Stripe = () => {

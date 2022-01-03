@@ -1,8 +1,8 @@
 import React from "react";
-import {Row,Col,Container,Navbar,Offcanvas,Nav,Button} from 'react-bootstrap';
+import {Row,Container,Navbar, Nav,Button} from 'react-bootstrap';
 import '../components/Header.scss';
 import Stripe from './stripe';
-import logo from '../components/assect/logo.png'
+import logo from '../components/assect/logo.png';
 
 const Header = () => {
   return (
