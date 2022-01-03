@@ -1,14 +1,15 @@
 import React from 'react';
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./service.scss";
-import product1 from "./assect/pro1.jpg";
-import product2 from "./assect/pro4.jpg";
-import product3 from "./assect/pro5.jpg";
-import product4 from "./assect/pro6.jpg";
-import product5 from "./assect/pro2.jpg";
-import product6 from "./assect/pro3.jpg";
+import product1 from "./assect/websitedesign.jpg";
+import product2 from "./assect/ondemand.jpg";
+import product3 from "./assect/webhosting2.jpg";
+import product4 from "./assect/webdevelop.jpg";
+import product5 from "./assect/ondemand.jpg";
+import product6 from "./assect/application.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import webData from './data';
+// import 'swiper/swiper-bundle.css';
 
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
@@ -67,11 +68,25 @@ const Service = () => {
           </Row>
           <Row className="py-4">
             <Swiper
-              slidesPerView={3}
+              slidesPerView={3.4}
               spaceBetween={30}
               slidesPerGroup={1}
               loop={true}
               loopFillGroupWithBlank={true}
+              breakpoints={{
+                "640": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 20
+                },
+                "767": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1024": {
+                  "slidesPerView": 3.4,
+                  "spaceBetween": 30
+                }
+              }} 
               className="mySwiper"
             >
               

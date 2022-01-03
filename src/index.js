@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+// import "swiper/css/bundle";
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers"></link>
 
 ReactDOM.render(
   <React.StrictMode>

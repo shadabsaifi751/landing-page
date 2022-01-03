@@ -28,11 +28,25 @@ const Product = () => {
         </Row>
         <Row className="py-4">
           <Swiper
-            slidesPerView={3}
+            slidesPerView={3.4}
             spaceBetween={30}
             slidesPerGroup={1}
             loop={true}
             loopFillGroupWithBlank={true}
+            breakpoints={{
+              "640": {
+                "slidesPerView": 1,
+                "spaceBetween": 20
+              },
+              "767": {
+                "slidesPerView": 1,
+                "spaceBetween": 40
+              },
+              "1024": {
+                "slidesPerView": 3.4,
+                "spaceBetween": 30
+              }
+            }} 
             className="mySwiper"
           >
             

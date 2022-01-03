@@ -16,6 +16,9 @@
         background-color: rgba(0, 0, 0, 0.75);
         z-index: -1;
     }
+    @media (max-width:768px){
+        height: 45vh;
+    }
 }
 
 // .bg-blue{

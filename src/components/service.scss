@@ -13,7 +13,7 @@
         box-shadow: 0px ​3px 8px rgba(0,0,0,0.17);
     }
     .top2{
-        height: 250px;
+        height: 170px;
         width: 100%;
         margin-bottom: 15px;
         overflow: hidden;
@@ -21,14 +21,26 @@
         
     }
     .title{
-        height: 50px;
+        height: 45px;
+        color: #282828;
         text-align: center;
         font-weight: 400;
     }
     .body-sec{
         border-bottom: 1px solid #d3d0d0;
     }
+    
 }
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
 
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Row, Col, Card } from "react-bootstrap";
-import "./developer.scss";
-import dev1 from './assect/dev2.jpg';
-import dev2 from './assect/dev4.jpg';
-import dev3 from './assect/dev1.jpg';
+import "./portfolio.scss";
+import dev1 from './assect/port2.jpg';
+import dev2 from './assect/port1.jpg';
+import dev3 from './assect/port3.jpg';
 
 const Portfolio = () => {
     return (
-        <section className="py-5 Developer">
+        <section className="pt-5 overflow-hidden pb-0 pb-md-5 portfolio">
         <Container>
           <Row className="py-2 mb-5">
             <Col sm={12} md={12}>
@@ -15,32 +15,35 @@ const Portfolio = () => {
               <h2 className="text-center fs-1 fw-normal">Portfolio / Case Studies</h2>
             </Col>
           </Row>
-          <Row className="py-2">
+          <Row className="py-2 gx-5">
             <Col sm={12} md={4}>
-                <Card className="bg-dark text-white">
-                    <Card.Img src={dev1} alt="Card image" />
-                    <Card.ImgOverlay>
-                        <Card.Title>Johan Sain</Card.Title>
-                        <p>Web Developer</p>
-                    </Card.ImgOverlay>
+                <Card className="mb-4 mb-md-0">
+                    <div className="items">
+                        <div className="item font">
+                            <img src={dev1} className='img-fluid' alt="" />
+                        </div>
+                        <div className="item back">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, tempora.</div>       
+                    </div>
                 </Card>
             </Col>
             <Col sm={12} md={4}>
-                <Card className="bg-dark text-white">
-                    <Card.Img src={dev2} alt="Card image" />
-                    <Card.ImgOverlay>
-                        <Card.Title>Johan Sain</Card.Title>
-                        <p>Web Developer</p>
-                    </Card.ImgOverlay>
+            <Card className="mb-4 mb-md-0">
+                    <div className="items">
+                        <div className="item font">
+                            <img src={dev2} className='img-fluid' alt="" />
+                        </div>
+                        <div className="item back">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, tempora.</div>       
+                    </div>
                 </Card>
             </Col>
             <Col sm={12} md={4}>
-                <Card className="bg-dark text-white">
-                    <Card.Img src={dev3} alt="Card image" />
-                    <Card.ImgOverlay>
-                        <Card.Title>Johan Sain</Card.Title>
-                        <p>Web Developer</p>
-                    </Card.ImgOverlay>
+            <Card className="mb-4 mb-md-0">
+                    <div className="items">
+                        <div className="item font">
+                            <img src={dev3} className='img-fluid' alt="" />
+                        </div>
+                        <div className="item back">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, tempora.</div>       
+                    </div>
                 </Card>
             </Col>
           </Row>

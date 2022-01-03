@@ -23,6 +23,7 @@
         .card-img-overlay{
             visibility: hidden;
             bottom: 0 !important;
+            top:auto;
             transition: .3s ease-in-out;
             -webkit-transition: .3s ease-in-out;
         }

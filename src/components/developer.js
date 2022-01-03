@@ -17,7 +17,7 @@ const Developer = () => {
           </Row>
           <Row className="py-2">
             <Col sm={12} md={4}>
-                <Card className="bg-dark text-white">
+                <Card className="bg-dark text-white mb-4 mb-md-0">
                     <Card.Img src={dev1} alt="Card image" />
                     <Card.ImgOverlay>
                         <Card.Title>Johan Sain</Card.Title>
@@ -26,7 +26,7 @@ const Developer = () => {
                 </Card>
             </Col>
             <Col sm={12} md={4}>
-                <Card className="bg-dark text-white">
+                <Card className="bg-dark text-white mb-4 mb-md-0">
                     <Card.Img src={dev2} alt="Card image" />
                     <Card.ImgOverlay>
                         <Card.Title>Johan Sain</Card.Title>
@@ -35,7 +35,7 @@ const Developer = () => {
                 </Card>
             </Col>
             <Col sm={12} md={4}>
-                <Card className="bg-dark text-white">
+                <Card className="bg-dark text-white mb-4 mb-md-0">
                     <Card.Img src={dev3} alt="Card image" />
                     <Card.ImgOverlay>
                         <Card.Title>Johan Sain</Card.Title>
