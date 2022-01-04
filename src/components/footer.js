@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="py-5">
       <Container>
         <Row>
-          <Col sm={12} md={4}>
+          <Col sm={12} md={6} lg={4} className="mb-4 mb-md-4 mb-lg-0">
             <div className="foot-logo">
               <img src={logo} className="img-fluid mb-4" alt="" />
             </div>
@@ -21,7 +21,7 @@ const Footer = () => {
               nulla ut
             </p>
           </Col>
-          <Col sm={6} md={2}>
+          <Col sm={6} md={6} lg={2} className="mb-4 mb-md-4 mb-lg-0">
             <Nav defaultActiveKey="/home" className="flex-column">
               <h5 className="fs-5 fw-bold ps-3">Link</h5>
               <Nav.Link href="/home">Our Clients</Nav.Link>
@@ -29,7 +29,7 @@ const Footer = () => {
               <Nav.Link eventKey="link-2">Our Benefits</Nav.Link>
             </Nav>
           </Col>
-          <Col sm={6} md={2}>
+          <Col sm={6} md={6} lg={2} className="mb-4 mb-md-4 mb-lg-0">
             <Nav defaultActiveKey="/home" className="flex-column">
               <h5 className="fs-5 fw-bold ps-3">Information</h5>
               <Nav.Link href="/home">Our Clients</Nav.Link>
@@ -37,7 +37,7 @@ const Footer = () => {
               <Nav.Link eventKey="link-2">Our Benefits</Nav.Link>
             </Nav>
           </Col>
-          <Col sm={6} md={4}>
+          <Col sm={6} md={6} lg={2} className="mb-4 mb-md-4 mb-lg-0">
             <Nav defaultActiveKey="/home" className="flex-column">
               <h5 className="fs-5 fw-bold ps-3">Contact us</h5>
               <Nav.Link href="/home">+91 1298765435 , +1800-300-400</Nav.Link>

@@ -26,4 +26,12 @@ footer {
             padding: 12px;
         }
     }
+    input span{
+        @media (max-width:768px){
+            padding: 9px 22px !important;
+        }
+        @media (max-width:767px){
+            padding: auto !important;
+        }
+    }
 }

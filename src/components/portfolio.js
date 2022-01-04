@@ -16,8 +16,8 @@ const Portfolio = () => {
             </Col>
           </Row>
           <Row className="py-2 gx-5">
-            <Col sm={12} md={4}>
-                <Card className="mb-4 mb-md-0">
+            <Col sm={12} md={6} lg={4}>
+                <Card className="mb-4 mb-md-4 mb-lg-0">
                     <div className="items">
                         <div className="item font">
                             <img src={dev1} className='img-fluid' alt="" />
@@ -26,8 +26,8 @@ const Portfolio = () => {
                     </div>
                 </Card>
             </Col>
-            <Col sm={12} md={4}>
-            <Card className="mb-4 mb-md-0">
+            <Col sm={12} md={6} lg={4}>
+            <Card className="mb-4 mb-md-4 mb-lg-0">
                     <div className="items">
                         <div className="item font">
                             <img src={dev2} className='img-fluid' alt="" />
@@ -36,8 +36,8 @@ const Portfolio = () => {
                     </div>
                 </Card>
             </Col>
-            <Col sm={12} md={4}>
-            <Card className="mb-4 mb-md-0">
+            <Col sm={12} md={6} lg={4}>
+            <Card className="mb-4 mb-md-4 mb-lg-0">
                     <div className="items">
                         <div className="item font">
                             <img src={dev3} className='img-fluid' alt="" />
