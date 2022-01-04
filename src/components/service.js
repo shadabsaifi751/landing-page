@@ -83,7 +83,7 @@ const Service = () => {
                   "spaceBetween": 40
                 },
                 "1024": {
-                  "slidesPerView": 3,
+                  "slidesPerView": 3.4,
                   "spaceBetween": 30
                 },
                 "1199": {

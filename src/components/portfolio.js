@@ -7,7 +7,7 @@ import dev3 from './assect/port3.jpg';
 
 const Portfolio = () => {
     return (
-        <section className="pt-5 overflow-hidden pb-0 pb-md-5 portfolio">
+        <section className="pt-3 pt-md-5 overflow-hidden pb-0 pb-md-5 portfolio">
         <Container>
           <Row className="py-2 mb-5">
             <Col sm={12} md={12}>

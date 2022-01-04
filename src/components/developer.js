@@ -7,7 +7,7 @@ import dev3 from './assect/dev3.jpg';
 
 const Developer = () => {
     return (
-        <section className="py-5 Developer">
+        <section className="py-2 py-md-5 Developer">
         <Container>
           <Row className="py-2 mb-5">
             <Col sm={12} md={12}>

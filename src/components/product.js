@@ -18,7 +18,7 @@ const Product = () => {
   };
 
   return (
-    <section className="py-5 product">
+    <section className="py-2 py-md-5 product">
       <Container>
         <Row className="py-2">
           <Col sm={12} md={12}>
@@ -26,7 +26,7 @@ const Product = () => {
             <h2 className="text-center fs-1 fw-normal">Products</h2>
           </Col>
         </Row>
-        <Row className="py-4">
+        <Row className="py-0 py-md-4">
           <Swiper
             // slidesPerView={3.4}
             spaceBetween={30}
