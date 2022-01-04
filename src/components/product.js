@@ -28,7 +28,7 @@ const Product = () => {
         </Row>
         <Row className="py-4">
           <Swiper
-            slidesPerView={3.4}
+            // slidesPerView={3.4}
             spaceBetween={30}
             slidesPerGroup={1}
             loop={true}
@@ -43,6 +43,10 @@ const Product = () => {
                 "spaceBetween": 40
               },
               "1024": {
+                "slidesPerView": 3,
+                "spaceBetween": 30
+              },
+              "1199": {
                 "slidesPerView": 3.4,
                 "spaceBetween": 30
               }
