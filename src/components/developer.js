@@ -9,7 +9,7 @@ const Developer = () => {
     return (
         <section className="py-2 py-md-5 Developer">
         <Container>
-          <Row className="py-2 mb-5">
+          <Row className="py-2 mb-3 mb-md-5">
             <Col sm={12} md={12}>
               <p className="text-center mb-2 text-p">Lorem, ipsum dolor.</p>
               <h2 className="text-center fs-1 fw-normal">Developers On Demand</h2>
