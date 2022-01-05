@@ -15,7 +15,7 @@ const Portfolio = () => {
               <h2 className="text-center fs-1 fw-normal">Portfolio / Case Studies</h2>
             </Col>
           </Row>
-          <Row className="py-2 gx-5">
+          <Row className="py-2 gx-5 justify-content-center">
             <Col sm={12} md={6} lg={4}>
                 <Card className="mb-4 mb-md-4 mb-lg-0">
                     <div className="items">

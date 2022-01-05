@@ -3,6 +3,12 @@
 }
 footer {
     background-color: #eeeeee;
+    .nav-link {
+        padding: 0.2rem 1rem !important;
+        @media (max-width:768px){
+            padding: 0.1rem 1rem !important;
+        }
+    }
     a{
         color: #767676 !important;
         font-weight: 500;
